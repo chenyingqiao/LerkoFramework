@@ -17,30 +17,47 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         ),
         'Z' => 
         array (
+            'Zend\\EventManager\\' => 18,
             'Zend\\Diactoros\\' => 15,
+            'Zend\\Code\\' => 10,
         ),
         'W' => 
         array (
+            'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
         ),
         'T' => 
         array (
+            'Tuupola\\Middleware\\' => 19,
             'Test\\' => 5,
         ),
         'S' => 
         array (
             'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Cache\\' => 24,
+            'Seld\\CliPrompt\\' => 15,
         ),
         'P' => 
         array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
+            'Predis\\' => 7,
+            'Phero\\' => 6,
+            'PheroTest\\' => 10,
+        ),
+        'N' => 
+        array (
+            'Neomerx\\Cors\\' => 13,
         ),
         'L' => 
         array (
             'Lib\\' => 4,
             'League\\Route\\' => 13,
             'League\\Container\\' => 17,
+            'League\\CLImate\\' => 15,
         ),
         'I' => 
         array (
@@ -68,13 +85,29 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
+        'Zend\\EventManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-eventmanager/src',
+        ),
         'Zend\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
+        'Zend\\Code\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-code/src',
+        ),
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Tuupola\\Middleware\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tuupola/cors-middleware/src',
         ),
         'Test\\' => 
         array (
@@ -84,6 +117,22 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
+        'Symfony\\Component\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/cache',
+        ),
+        'Seld\\CliPrompt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/cli-prompt/src',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
@@ -91,6 +140,26 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Predis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/predis/predis/src',
+        ),
+        'Phero\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lerko/p-hero/src/Phero',
+        ),
+        'PheroTest\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lerko/p-hero/test/PheroTest',
+        ),
+        'Neomerx\\Cors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/neomerx/cors-psr7/src',
         ),
         'Lib\\' => 
         array (
@@ -103,6 +172,10 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
+        ),
+        'League\\CLImate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/climate/src',
         ),
         'Interop\\Container\\' => 
         array (
