@@ -10,3 +10,4 @@ use App\Logic\Test;
 require "vendor/autoload.php";
 define("WEB_ROOT",dirname(__FILE__));
 (new App\Bootstrap)->init();
+

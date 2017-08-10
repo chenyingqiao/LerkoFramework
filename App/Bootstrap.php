@@ -11,7 +11,14 @@ class Bootstrap
 {
 	public function init(){
 		define("WEB_APP_PATH",dirname(__FILE__));
+		$this->_err_handle();
 		(new Route)->routing()->dispatch();
+	}
+
+	private function _err_handle(){
+		$whoops = new \Whoops\Run;
+		$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+		$whoops->register();
 	}
 }
 
