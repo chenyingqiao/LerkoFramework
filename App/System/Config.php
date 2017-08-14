@@ -5,7 +5,7 @@ namespace App\System;
  * @Author: Administrator
  * @Date:   2017-08-10 11:10:33
  * @Last Modified by:   Administrator
- * @Last Modified time: 2017-08-10 15:22:55
+ * @Last Modified time: 2017-08-14 09:39:31
  */
 class Config
 {
@@ -18,6 +18,11 @@ class Config
 			self::$config=require WEB_APP_PATH."/Config/{$evn}/config.php";
 		}
 		return self::$config[$name];
+	}
+
+	public static function getDbConfigPath(){
+		$evn=self::getEvn();
+		return WEB_APP_PATH."/Config/{$evn}/db.php";
 	}
 
 	private static function getEvn(){

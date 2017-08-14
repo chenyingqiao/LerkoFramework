@@ -2,7 +2,8 @@
 namespace App;
 
 use App\Controller\ZanTokenController;
-use League\Route\RouteCollection;
+use App\System\Route\RouteCollectionVersion;
+use App\System\Route\V1\TestRoute;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response;
@@ -10,10 +11,10 @@ use Zend\Diactoros\Response\HtmlResponse;
 use Zend\Diactoros\Response\SapiEmitter;
 use Zend\Diactoros\ServerRequestFactory;
 /**
- * @Author: Administrator
+ * @Author: Lerko
  * @Date:   2017-08-10 10:21:32
  * @Last Modified by:   Administrator
- * @Last Modified time: 2017-08-10 15:20:57
+ * @Last Modified time: 2017-08-11 14:21:51
  */
 class Route
 {
@@ -21,19 +22,16 @@ class Route
 
 	public function __construct()
 	{
-		$this->route=new RouteCollection();
+		$this->route=new RouteCollectionVersion("V1");
 	}
 
 	public function routing()
 	{	
-		$this->route->map(['GET',"POST"],"/",function (ServerRequestInterface $request, ResponseInterface $response) {
-		 	$response = new HtmlResponse("<h1 style='margin:0 auto'>hello world</h1>");
-		    return $response;
-		});
-		$this->route->map(['GET'],"/token",[new ZanTokenController,"getToken"]);
+		$this->route->addRouter([
+				new TestRoute()
+			])->routing();
 		return $this;
 	}
-
 	public function dispatch(){
 		$response = $this->route->dispatch(ServerRequestFactory::fromGlobals(
 		        $_SERVER, $_GET, $_POST, $_COOKIE, $_FILES

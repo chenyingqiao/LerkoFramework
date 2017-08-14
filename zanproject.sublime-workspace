@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"pre",
+				"$prefix〔variable〕"
+			],
+			[
+				"group",
+				"groups〔variable〕"
+			],
+			[
+				"version",
+				"versionGroup"
+			],
+			[
+				"route",
+				"$router〔variable〕"
+			],
+			[
+				"con",
+				"$container〔variable〕"
+			],
+			[
 				"Boo",
 				"Bootstrap〔class〕"
 			],
@@ -14,10 +34,6 @@
 			[
 				"req",
 				"require〔keyword〕"
-			],
-			[
-				"con",
-				"$concrete〔variable〕"
 			],
 			[
 				"R",
@@ -112,83 +128,38 @@
 	"buffers":
 	[
 		{
-			"file": "App/Controller/ZanTokenController.php",
+			"file": "App/Resource/OAuth/Entity/AccessTokenEntity.php",
 			"settings":
 			{
-				"buffer_size": 589,
+				"buffer_size": 692,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "App/System/Tool.php",
+			"file": "App/Resource/OAuth/Traits/TokenEntityTrait.php",
 			"settings":
 			{
-				"buffer_size": 763,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "App/Route.php",
-			"settings":
-			{
-				"buffer_size": 1159,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Administrator/Desktop/open-sdk-php-2.0.0/open-sdk-php/GetTokenDemo.php",
-			"settings":
-			{
-				"buffer_size": 1612,
+				"buffer_size": 2386,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
+			"file": "App/Resource/OAuth/Traits/EntityTrait.php",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "Xdebug Context",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 628,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
+			"file": "App/Resource/OAuth/AccessTokenRepository.php",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "Xdebug Watch",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "Xdebug Stack",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "=> D:\\dev_12301\\www\\html\\new\\my\\module\\pft_monthly\\monthly.html\n\t|+| 260\n=> D:\\dev_12301\\www\\html\\s12301\\wxh\\c\\sell.php\n\t|+| 13\n",
-			"settings":
-			{
-				"buffer_size": 128,
-				"line_ending": "Windows",
-				"name": "Xdebug Breakpoint",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 1499,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -200,15 +171,15 @@
 	"command_palette":
 	{
 		"height": 322.0,
-		"last_filter": "finduse",
+		"last_filter": "phpcompanion",
 		"selected_items":
 		[
 			[
-				"finduse",
-				"PHPCompanion:Find Use"
+				"phpcompanion",
+				"PHPCompanion:Import Namespace"
 			],
 			[
-				"im",
+				"impor",
 				"PHPCompanion:Import Namespace"
 			],
 			[
@@ -216,11 +187,135 @@
 				"PHPCompanion:Find Use"
 			],
 			[
+				"packageremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"fileheader",
+				"FileHeader: Add Header"
+			],
+			[
+				"file",
+				"FileHeader: Add Header"
+			],
+			[
+				"filehea",
+				"FileHeader: Add Header"
+			],
+			[
+				"finduse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"packagesyncbackup",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"resourceviewo",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"materialconfig",
+				"Material Theme: Configuration"
+			],
+			[
+				"installpack",
+				"Package Control: Install Package"
+			],
+			[
 				"import",
 				"PHPCompanion:Import Namespace"
 			],
 			[
-				"impor",
+				"find",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"new proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"openproject",
+				"Project Manager: Open Project"
+			],
+			[
+				"project",
+				"Project Manager"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: test",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Create new LiveReload plugin"
+			],
+			[
+				"snippet maker",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet ma",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"snippet",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown",
+				"Preferences: MarkdownLivePreview Settings"
+			],
+			[
+				"impro",
+				"PHPCompanion:Import Namespace"
+			],
+			[
+				"xdebug:st",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"xdebug",
+				"Xdebug: Stop Debugging (Launch Browser)"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"xdebug close",
+				"Xdebug: Stop Debugging (Launch Browser)"
+			],
+			[
+				"im",
 				"PHPCompanion:Import Namespace"
 			],
 			[
@@ -240,10 +335,6 @@
 				"PHPCompanion:Import Namespace"
 			],
 			[
-				"find",
-				"PHPCompanion:Find Use"
-			],
-			[
 				"classname",
 				"PHPCompanion:Expand Fully Qualified Class Name"
 			],
@@ -256,10 +347,6 @@
 				"PHPCompanion:Expand Fully Qualified Class Name"
 			],
 			[
-				"phpcompanion",
-				"PHPCompanion:Expand Fully Qualified Class Name"
-			],
-			[
 				"fin",
 				"PHPCompanion:Find Use"
 			],
@@ -268,20 +355,8 @@
 				"PHPCompanion:Find Use"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"xdebug",
-				"Xdebug: Stop Debugging (Close Windows)"
-			],
-			[
 				"syntaxphp",
 				"Set Syntax: PHP"
-			],
-			[
-				"close",
-				"Xdebug: Stop Debugging (Close Windows)"
 			],
 			[
 				"xdebu",
@@ -297,10 +372,6 @@
 			],
 			[
 				"syntax Php",
-				"Set Syntax: PHP"
-			],
-			[
-				"syntax php",
 				"Set Syntax: PHP"
 			],
 			[
@@ -384,10 +455,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"setupcon",
 				"ST: Setup Connections"
 			],
@@ -406,10 +473,6 @@
 			[
 				"setup connect",
 				"ST: Setup Connections"
-			],
-			[
-				"material",
-				"Material Theme: Activate theme"
 			],
 			[
 				"installc",
@@ -473,25 +536,72 @@
 	},
 	"expanded_folders":
 	[
-		"/D/dev_12301/www/html",
-		"/D/dev_12301/www/html/Phero",
+		"/D/dev_12301/www/html/zanproject",
 		"/D/dev_12301/www/html/zanproject/App",
-		"/D/dev_12301/www/html/zanproject/App/Config/Develop",
-		"/D/dev_12301/www/html/zanproject/Test/System",
-		"/C/Users/Administrator/Desktop/open-sdk-php-2.0.0/open-sdk-php"
+		"/D/dev_12301/www/html/zanproject/App/Model/OAuth",
+		"/D/dev_12301/www/html/zanproject/App/Resource",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master/App"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Traits/AccessTokenTrait.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Traits/AuthCodeTrait.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Traits/ClientTrait.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Traits/EntityTrait.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Traits/RefreshTokenTrait.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Traits/TokenEntityTrait.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/ClientEntityInterface.php",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master/App/Controller/Oauth/OauthController.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/Traits/ClientTrait.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/Entity/AccessTokenEntity.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/Traits/AccessTokenTrait.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/AccessTokenEntityInterface.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/TokenInterface.php",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master/App/Oauth/Db/ClientEntity.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/Traits/TokenEntityTrait.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/Traits/EntityTrait.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/AuthCodeEntityInterface.php",
+		"/D/dev_12301/www/html/zanproject/App/Resource/OAuth/AccessTokenRepository.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Entities/ScopeEntityInterface.php",
+		"/D/dev_12301/www/html/zanproject/App/System/Route/V1/TestRoute.php",
 		"/D/dev_12301/www/html/zanproject/App/Route.php",
-		"/D/dev_12301/www/html/zanproject/App/Bootstrap.php",
-		"/D/dev_12301/www/html/zanproject/index.php",
-		"/D/dev_12301/www/html/zanproject/composer.json",
-		"/D/dev_12301/www/html/zanproject/App/Logic/Test.php",
-		"/D/dev_12301/www/html/zanproject/App/System/Tool.php",
-		"/D/dev_12301/www/html/zanproject/App/System/Config.php",
-		"/C/php7/php.ini",
-		"/D/dev_12301/www/html/Phero/src/Phero/System/Tool.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/oauth2-server/src/Repositories/AccessTokenRepositoryInterface.php",
+		"/D/dev_12301/www/html/zanproject/App/Config/Local/config.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/route/src/Route.php",
 		"/D/dev_12301/www/html/zanproject/vendor/league/route/src/RouteCollection.php",
+		"/D/dev_12301/www/html/zanproject/App/System/Route/RouteCollectionVersion.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/route/src/RouteGroup.php",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master/App/Controller/Route/MyRoute.php",
+		"/D/dev_12301/www/html/zanproject/vendor/league/route/src/RouteCollectionMapTrait.php",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master/App/Middleware/JsonRequestBodyDecodeMiddleware.php",
+		"/D/dev_12301/www/html/zanproject/App/Bootstrap.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme-Palenight.sublime-theme",
+		"/D/dev_12301/www/html/zanproject/App/System/Interfaces/RouteComponentInterface.php",
+		"/D/dev_12301/www/html/zanproject/vendor/zendframework/zend-diactoros/src/Response/JsonResponse.php",
+		"/D/dev_12301/www/html/zanproject/vendor/zendframework/zend-diactoros/src/Response.php",
+		"/D/dev_12301/www/html/zanproject/index.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/map.sublime-snippet",
+		"/D/dev_12301/www/html/zanproject/README.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownLivePreview.css",
+		"/D/dev_12301/www/html/zanproject/info.php",
+		"/D/dev_12301/www/html/zanproject/App/Controller/ZanTokenController.php",
+		"/D/dev_12301/www/html/zanproject/App/System/Tool.php",
+		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZGetTokenClient.php",
+		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZHttpClient.php",
+		"/D/dev_12301/www/html/zanproject/composer.json",
+		"/C/php7/php.ini",
+		"/C/Users/Administrator/Desktop/graduate_php-master/graduate_php-master/composer.json",
+		"/D/dev_12301/www/html/zanproject/.gitignore",
+		"/D/dev_12301/www/html/zanproject/vendor/zendframework/zend-diactoros/src/ServerRequestFactory.php",
+		"/D/dev_12301/www/html/zanproject/zanproject.sublime-project",
+		"/D/dev_12301/www/html/zanproject/App/Logic/Test.php",
+		"/D/dev_12301/www/html/zanproject/App/System/Config.php",
+		"/D/dev_12301/www/html/Phero/src/Phero/System/Tool.php",
 		"/D/dev_12301/www/html/zanproject/vendor/autoload.php",
 		"/D/dev_12301/www/html/zanproject/index.html",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -499,7 +609,6 @@
 		"/D/dev_12301/www/html/easyswoole/ide_helper/Http/Response.php",
 		"/D/dev_12301/www/html/zanproject/vendor/zendframework/zend-diactoros/src/Response/SapiEmitter.php",
 		"/D/dev_12301/www/html/zanproject/phpunit.xml",
-		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZGetTokenClient.php",
 		"/C/Users/Administrator/Desktop/open-sdk-php-2.0.0/open-sdk-php/TokenDemo.php",
 		"/D/dev_12301/www/html/zanproject/Test/System/MainTest.php",
 		"/C/Users/Administrator/Desktop/open-sdk-php-2.0.0/open-sdk-php/GetTokenDemo.php",
@@ -507,13 +616,11 @@
 		"/D/dev_12301/www/html/Phero/phpunit.xml",
 		"/D/dev_12301/www/html/zanproject/vendor/league/container/src/Container.php",
 		"/D/dev_12301/www/html/zanproject/vendor/league/container/src/ContainerInterface.php",
-		"/D/dev_12301/www/html/zanproject/App/Config/Local/config.php",
 		"/D/dev_12301/www/html/zanproject/App/Config/evn.php",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/FileHeader/FileHeader.sublime-settings",
 		"/D/dev_12301/www/html/info.php",
 		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZApiProtocol.php",
-		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZHttpClient.php",
 		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZSignClient.php",
 		"/D/dev_12301/www/html/zanproject/Lib/Zan/YZTokenClient.php",
 		"/D/dev_12301/www/html/Phero/test/test.sql",
@@ -565,51 +672,7 @@
 		"/D/dev_12301/www/html/Service/Model/Order/OrderTools.class.php",
 		"/D/dev_12301/www/html/Service/Model/Finance/TradeRecordBak.class.php",
 		"/D/dev_12301/www/html/Service/Library/Controller.class.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
-		"/D/dev_12301/www/html/Service/Controller/Finance/TradeRecordParser.class.php",
-		"/D/dev_12301/www/html/Service/Conf/business.conf.php",
-		"/D/dev_12301/www/html/Service/Conf/trade_record.conf.php",
-		"/D/dev_12301/www/html/Service/Library/Db.class.php",
-		"/D/dev_12301/www/html/Service/Library/Model.class.php",
-		"/D/dev_12301/www/html/Service/Conf/config_local.php",
-		"/D/dev_12301/www/html/new/my/Views/Common/header.html",
-		"/C/Users/Administrator/Desktop/cachegrind.out._trecordNew_html_req=all",
-		"/D/dev_12301/www/html/Service/Model/Product/Ticket.class.php",
-		"/D/dev_12301/www/html/Service/Model/TradeRecord/OnlineTrade.class.php",
-		"/D/dev_12301/www/html/PFT_Documents/团队开发规范.md",
-		"/D/dev_12301/www/html/Phero/src/Phero/Database/Realize/MysqlDbHelp.php",
-		"/D/dev_12301/www/html/new/d/admin/count/disReport.html",
-		"/C/Users/Administrator/Desktop/testsql/myuu.sql",
-		"/C/Users/Administrator/Desktop/testsql/summary.sql",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownLivePreview.css",
-		"/D/dev_12301/www/html/Service/Conf/config_develop.php",
-		"/D/dev_12301/www/html/Service/Process/Order/OrderSearchHandle.class.php",
-		"/D/dev_12301/www/html/Service/Controller/Order/OrderRequest.class.php",
-		"/D/dev_12301/www/html/Service/Model/Product/Land.class.php",
-		"/D/dev_12301/www/html/Phero/src/Phero/Database/Traits/TConstraitTableDependent.php",
-		"/D/dev_12301/www/html/Service/Business/Order/OrderSearch.class.php",
-		"/D/dev_12301/www/html/Service/Model/Order/OrderSearch.class.php",
-		"/D/dev_12301/www/html/terminal_swoole/bin/function.php",
-		"/D/dev_12301/www/html/wx/html/parkPay.html",
-		"/D/dev_12301/www/html/Service/Controller/pay/CmbcWxPay.class.php",
-		"/D/dev_12301/www/html/Service/Model/AdminConfig/AdminConfig.class.php",
-		"/D/dev_12301/www/html/Service/Library/MessageNotify/WxTemplateMsg.class.php",
-		"/D/dev_12301/www/html/Service/Controller/Tpl/appcenter.class.php",
-		"/D/dev_12301/www/html/terminal_swoole/src/Base/Dao.php",
-		"/D/dev_12301/www/html/new/d/route/index.php",
-		"/D/dev_12301/www/html/Service/Controller/AppCenter/HaboDock.class.php",
-		"/D/dev_12301/www/html/Service/Model/Member/HaboParkPay.class.php",
-		"/D/dev_12301/www/html/Service/Library/wechat/core/TemplateMessage.class.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
-		"/D/dev_12301/www/html/Service/Business/JavaApi/BaseApi.class.php",
-		"/C/php7/php.ini-production",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/php7/php.ini-development",
-		"/D/dev_12301/www/html/terminal_swoole/webapi/save_joytime_lid.php",
-		"/D/dev_12301/www/html/terminal_swoole/src/HttpServer.php",
-		"/D/dev_12301/www/html/Service/Controller/Home/HomeMember.class.php"
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings"
 	],
 	"find":
 	{
@@ -634,6 +697,23 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			";",
+			"abstract",
+			"League\\OAuth2\\Server\\Entities\\Traits",
+			"abstract",
+			";",
+			"League\\OAuth2\\Server\\Entities\\Traits",
+			"buildNameIndex",
+			"versionGroup",
+			"sidebar",
+			"sidebar_bar",
+			"font.size",
+			"sild",
+			"font.size",
+			"statusbar",
+			"this->",
+			"display_error",
+			"corsSetting",
 			"DI",
 			"$this->container",
 			" ",
@@ -712,24 +792,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "App/Controller/ZanTokenController.php",
+					"file": "App/Resource/OAuth/Entity/AccessTokenEntity.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 589,
+						"buffer_size": 692,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								601,
+								601
 							]
 						],
 						"settings":
@@ -765,13 +845,13 @@
 								7,
 								225,
 								8,
-								10,
-								10,
-								57,
-								42,
-								3,
-								179,
-								168,
+								11,
+								18,
+								8,
+								2,
+								4,
+								120,
+								137,
 								113,
 								1,
 								133,
@@ -783,340 +863,10 @@
 								46
 							],
 							"is_init_dirty_state": false,
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "App/System/Tool.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								8,
-								10,
-								11,
-								41,
-								13,
-								9,
-								14,
-								192,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "App/Route.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1039,
-								1039
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								8,
-								10,
-								10,
-								21,
-								32,
-								1,
-								90,
-								24,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Administrator/Desktop/open-sdk-php-2.0.0/open-sdk-php/GetTokenDemo.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1164,
-								1177
-							],
-							[
-								1180,
-								1180
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								225,
-								8,
-								9,
-								17,
-								1,
-								35,
-								10,
-								25,
-								40,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 891.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "D:\\dev_12301\\www\\html",
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "D:\\dev_12301\\www\\html",
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "D:\\dev_12301\\www\\html",
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1126,32 +876,240 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 1,
+					"file": "App/Resource/OAuth/Traits/TokenEntityTrait.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 128,
+						"buffer_size": 2386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								441,
+								441
 							]
 						],
 						"settings":
 						{
-							"default_dir": "D:\\dev_12301\\www\\html",
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								8,
+								11,
+								18,
+								23,
+								48,
+								2,
+								5,
+								149,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "App/Resource/OAuth/Traits/EntityTrait.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								8,
+								11,
+								18,
+								23,
+								48,
+								1,
+								236,
+								49,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "App/Resource/OAuth/AccessTokenRepository.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								225,
+								8,
+								11,
+								17,
+								21,
+								48,
+								11,
+								53,
+								37,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1172,36 +1130,30 @@
 			[
 				0,
 				0,
-				2,
+				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.7,
 			1.0
 		]
 	},
 	"menu_visible": true,
+	"output.GoSublime-output":
+	{
+		"height": 204.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 204.0
+	},
 	"output.SQLTools Result":
 	{
 		"height": 457.0
@@ -1231,6 +1183,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"server/entities/traits/entitytrait",
+				"zanproject\\vendor\\league\\oauth2-server\\src\\Entities\\Traits\\EntityTrait.php"
+			],
+			[
+				"/entities/traits/clienttrait",
+				"zanproject\\vendor\\league\\oauth2-server\\src\\Entities\\Traits\\ClientTrait.php"
+			],
+			[
+				"yzhttpclient",
+				"zanproject\\Lib\\Zan\\YZHttpClient.php"
+			],
+			[
+				"lib/zan/yzgettokenclient",
+				"zanproject\\Lib\\Zan\\YZGetTokenClient.php"
+			],
+			[
+				"lib/zan/yzgettokenclient.php",
+				"zanproject\\Lib\\Zan\\YZGetTokenClient.php"
+			],
+			[
+				"lib/zan/yzgettokenclient.ph",
+				"zanproject\\Lib\\Zan\\YZGetTokenClient.php"
+			],
 			[
 				"vendor/autoload.php",
 				"html\\zanproject\\vendor\\autoload.php"
@@ -1424,25 +1400,30 @@
 			"hide_conflict": false,
 			"restore_index":
 			{
-				"114":
+				"44":
 				{
 					"group": 0,
-					"index": 2
+					"index": 0
 				},
-				"115":
-				{
-					"group": 0,
-					"index": 3
-				},
-				"116":
+				"45":
 				{
 					"group": 0,
 					"index": 1
 				},
-				"17":
+				"49":
 				{
 					"group": 0,
-					"index": 0
+					"index": 4
+				},
+				"56":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"57":
+				{
+					"group": 0,
+					"index": 3
 				}
 			},
 			"restore_layout":
@@ -1452,18 +1433,32 @@
 					[
 						0,
 						0,
-						1,
+						2,
 						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
+					0.595169578623,
 					1.0
 				]
 			}
@@ -1473,7 +1468,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 350.0,
+	"side_bar_width": 479.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

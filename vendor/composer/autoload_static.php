@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
 {
     public static $files = array (
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
     );
 
@@ -17,6 +18,8 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         ),
         'Z' => 
         array (
+            'Zend\\Validator\\' => 15,
+            'Zend\\Stdlib\\' => 12,
             'Zend\\EventManager\\' => 18,
             'Zend\\Diactoros\\' => 15,
             'Zend\\Code\\' => 10,
@@ -56,8 +59,11 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         array (
             'Lib\\' => 4,
             'League\\Route\\' => 13,
+            'League\\OAuth2\\Server\\' => 21,
+            'League\\Event\\' => 13,
             'League\\Container\\' => 17,
             'League\\CLImate\\' => 15,
+            'Lcobucci\\JWT\\' => 13,
         ),
         'I' => 
         array (
@@ -70,6 +76,7 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'Defuse\\Crypto\\' => 14,
             'DeepCopy\\' => 9,
         ),
         'A' => 
@@ -84,6 +91,14 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'Zend\\Validator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-validator/src',
+        ),
+        'Zend\\Stdlib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
         ),
         'Zend\\EventManager\\' => 
         array (
@@ -169,6 +184,14 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         array (
             0 => __DIR__ . '/..' . '/league/route/src',
         ),
+        'League\\OAuth2\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-server/src',
+        ),
+        'League\\Event\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/event/src',
+        ),
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
@@ -176,6 +199,10 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         'League\\CLImate\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/climate/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
         ),
         'Interop\\Container\\' => 
         array (
@@ -188,6 +215,10 @@ class ComposerStaticInite28ba9f4121699a16c2a35874dbbb968
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
         ),
         'DeepCopy\\' => 
         array (

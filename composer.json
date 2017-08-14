@@ -8,7 +8,9 @@
         "zendframework/zend-diactoros": "^1.3",
         "tuupola/cors-middleware": "^0.5.2",
         "filp/whoops": "^2.1",
-        "lerko/p-hero": "^1.0"
+        "lerko/p-hero": "^1.0",
+        "zendframework/zend-validator": "^2.9",
+        "league/oauth2-server": "^6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "5.7.21"
