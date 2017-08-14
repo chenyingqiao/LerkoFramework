@@ -1,5 +1,4 @@
 <?php 
-
 namespace App\System\Interfaces;
 /**
  * @Author: Administrator

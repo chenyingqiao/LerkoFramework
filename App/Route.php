@@ -22,13 +22,14 @@ class Route
 
 	public function __construct()
 	{
-		$this->route=new RouteCollectionVersion("V1");
+		$this->route=new RouteCollectionVersion("V1");//版本号V1
 	}
 
 	public function routing()
 	{	
 		$this->route->addRouter([
-				new TestRoute()
+				"TestRoute",
+				"SercurityRoute"
 			])->routing();
 		return $this;
 	}

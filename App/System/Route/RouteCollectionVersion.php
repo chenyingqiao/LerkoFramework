@@ -57,6 +57,10 @@ class RouteCollectionVersion extends RouteCollection
     public function addRouter($router){
     	if(!is_array($router)){$router=[$router];}
     	foreach ($router as $key => $value) {
+            if(is_string($value)){
+                $class_route="App\\System\\Route\\".$this->version."\\".$value;
+                $value=new $class_route;
+            }
 	    	$this->routers[]=$value;
     	}
         return $this;

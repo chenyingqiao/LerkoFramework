@@ -25,20 +25,4 @@ class RefreshTokenEntity implements RefreshTokenEntityInterface
 {
 	use RefreshTokenTrait;
 	use EntityTrait;
-
-	/**
-	 * @Author   Lerko
-	 * @DateTime 2017-08-14T10:46:36+0800
-	 * @param    [type]                   $data [RefreshToken查询的数据]
-	 * @return   [type]                         [description]
-	 */
-	public function init($data)
-	{
-		if(is_set($data['id']))
-			$this->setIdentifier();
-		$access_token=new AccessTokenEntity();
-		$access_token->init(PftUserAccessToken::Inc(['id'=>$data['access_token']])->find());
-		$this->setAccessToken($access_token);
-		$this->setExpiryDateTime(new \DateTime($data['expiry_time']));
-	}
 }

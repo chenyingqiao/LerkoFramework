@@ -31,18 +31,4 @@ class AccessTokenEntity implements AccessTokenEntityInterface
 	use AccessTokenTrait;
 	use EntityTrait;
 	use TokenEntityTrait;
-  
-  /**
-   * @Author   Lerko
-   * @DateTime 2017-08-14T10:37:13+0800
-   * @param    [type]                   $data [PftUserAccessToken 查询的数据]
-   * @return   [type]                         [description]
-   */
-  public function init($data){
-    if(is_set($data['id']))
-      $this->setIdentifier($data['id']);
-    $this->setExpiryDateTime(new DateTime($data['expiry_time']));
-    $this->setUserIdentifier(1);
-    $this->setClient(new ClientEntity($data['client_id']));
-  }
 }

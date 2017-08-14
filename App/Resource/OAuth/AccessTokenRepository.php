@@ -31,7 +31,7 @@ class AccessTokenRepository implements AccessTokenRepositoryInterface
 	    $accessTokenEntity=new AccessTokenEntity();
          $accessTokenEntity->setExpiryDateTime(new \DateTime());
          $accessTokenEntity->setUserIdentifier($userIdentifier);
-         $accessTokenEntity->setClient($clientEntity);
+         // $accessTokenEntity->setClient($clientEntity);
          foreach ($scopes as $key => $value) {
                $scope=new ScopeEntity();
                $scope->setIdentifier($value);
