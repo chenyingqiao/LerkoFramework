@@ -4,13 +4,14 @@ namespace Test\System;
 
 use App\System\Tool;
 use PHPUnit\Framework\TestCase;
+use Test\WebCase;
 /**
  * @Author: Administrator
  * @Date:   2017-08-10 11:58:06
  * @Last Modified by:   Administrator
  * @Last Modified time: 2017-08-10 14:14:24
  */
-class MainTest extends TestCase
+class MainTest extends WebCase
 {
 	/**
 	 * @test

@@ -21,10 +21,18 @@ use Zend\Diactoros\Response\JsonResponse;
  * @Author: Administrator
  * @Date:   2017-08-10 10:57:42
  * @Last Modified by:   Administrator
- * @Last Modified time: 2017-08-14 09:42:30
+ * @Last Modified time: 2017-08-15 09:36:25
  */
 class TokenController
 {
+	/**
+	 * 获取有赞token
+	 * @Author   Lerko
+	 * @DateTime 2017-08-15T09:36:14+0800
+	 * @param    ServerRequestInterface   $request  [description]
+	 * @param    ResponseInterface        $response [description]
+	 * @return   [type]                             [description]
+	 */
 	public function getToken(ServerRequestInterface  $request,ResponseInterface $response)
 	{
 		$token=Tool::getZanPlantformAT();
@@ -94,7 +102,7 @@ class TokenController
 		$refreshTokenRepository = new RefreshTokenRepository();
 
 		$privateKey=WEB_APP_PATH."/Resource/OAuth/key/private.key";
-		$encryptionKey = 'lxZFUEsBCJ2Yb14IF2ygAHI5N4+ZAUXXaSeeJm6+twsUmIen'; 
+		$encryptionKey = '8IhUOjl7hwXv4QvcG+uXLH/uXeKZtYWjEjPNNv+lNIM=';
 
 		$server = new \League\OAuth2\Server\AuthorizationServer(
 		    $clientRepository,

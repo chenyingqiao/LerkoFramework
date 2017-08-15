@@ -15,7 +15,7 @@ class StatusMessage implements \JsonSerializable
 
 	public function jsonSerialize(){
 		if(Config::get("debug")){
-			$this->msg.="    ".$this->debug;
+			$this->msg.="|".$this->debug;
 		}
 		return ["status"=>$this->status,"msg"=>$this->msg];
 	}

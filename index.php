@@ -8,5 +8,4 @@ use App\Logic\Test;
  * @Last Modified time: 2017-08-11 10:44:45
  */
 require "vendor/autoload.php";
-define("WEB_ROOT",dirname(__FILE__));
 (new App\Bootstrap)->init();

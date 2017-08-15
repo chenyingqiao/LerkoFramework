@@ -14,13 +14,18 @@ use Whoops\Handler\PlainTextHandler;
 class Bootstrap
 {
 	public function init(){
-		define("WEB_APP_PATH",dirname(__FILE__));
+		$this->defineInit();
 		$this->_err_handle();
 		$this->init_db_config();
 		(new Route)->routing()->dispatch();
 	}
 
-	private function _err_handle(){
+	public function defineInit(){
+		define("WEB_APP_PATH",dirname(__FILE__));
+		define("WEB_ROOT",dirname(dirname(__FILE__)));
+	}
+
+	public function _err_handle(){
 		$whoops = new \Whoops\Run;
 		$handle=new \Whoops\Handler\PrettyPageHandler;
 		switch (Config::get("whoops")) {
@@ -38,7 +43,7 @@ class Bootstrap
 		$whoops->register();
 	}
 
-	private function init_db_config(){
+	public function init_db_config(){
 		DI::inj(DI::config,Config::getDbConfigPath());
 	}
 }
