@@ -10,7 +10,8 @@
         "filp/whoops": "^2.1",
         "lerko/p-hero": "^1.0",
         "zendframework/zend-validator": "^2.9",
-        "league/oauth2-server": "^6.0"
+        "league/oauth2-server": "^6.0",
+        "chrisboulton/php-resque": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "5.7.21"

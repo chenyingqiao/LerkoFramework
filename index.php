@@ -1,5 +1,4 @@
 <?php 
-
 use App\Logic\Test;
 /**
  * @Author: Administrator

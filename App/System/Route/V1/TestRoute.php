@@ -9,6 +9,7 @@ use League\Route\Strategy\JsonStrategy;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response\HtmlResponse;
+use Zend\Diactoros\Response\JsonResponse;
 /**
  * @Author: Administrator
  * @Date:   2017-08-11 11:54:22
@@ -20,10 +21,17 @@ class TestRoute implements RouteComponentInterface
 	public function register(&$route)
 	{
 		$route->map(['GET',"POST"],"/",function (ServerRequestInterface $request, ResponseInterface $response) {
-		 	$response = new HtmlResponse("<h1 style='margin:0 auto'>hello world</h1>");
-		    return $response;
+		 	return new JsonResponse(["msg"=>"Hello World!"]);
 		})->setStrategy(new JsonStrategy)
 			->middleware(Tool::getCorsMiddleware());
+
+		$route->get("/info",function(ServerRequestInterface $request,ResponseInterface $response){
+			ob_start();
+			phpinfo();
+			$output=ob_get_contents();
+			ob_end_clean();
+			return new HtmlResponse($output);
+		});
 
 		$route->group("/test",function($route){
 			$route->map(['GET'],"/token",[new TokenController,"getToken"]);
@@ -32,8 +40,7 @@ class TestRoute implements RouteComponentInterface
 
 		$route->group('/validate',function($route){
 			$route->map(['GET'],"/hello",function (ServerRequestInterface $request, ResponseInterface $response) {
-			 	$response = new HtmlResponse("<h1 style='margin:0 auto'>hello world in security</h1>");
-			    return $response;
+			 	return new JsonResponse(["msg"=>"Hello World in Sercurity!"]);
 			});
 		})->setStrategy(new JsonStrategy)
 			->middleware(Tool::getResourceServerMiddleware())
